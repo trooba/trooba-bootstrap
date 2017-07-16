@@ -330,7 +330,7 @@ describe(__filename, () => {
                 const provider = boot(profiles, clients);
 
                 Assert.ok(provider);
-                Assert.deepEqual(['default', 'other'], Object.keys(provider.profiles));
+                Assert.deepEqual(['default', 'other'], Object.keys(provider.profiles).sort());
 
                 const client = provider.createClient('my-client', 'default:api');
                 client.create().request('req', (err, response) => {
