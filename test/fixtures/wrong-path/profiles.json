@@ -1,0 +1,11 @@
+{
+    "default": {
+        "trace": {
+            "priority": 10,
+            "module": "path:./bar"
+        },
+        "circuit": {
+            "priority": 20
+        }
+    }
+}

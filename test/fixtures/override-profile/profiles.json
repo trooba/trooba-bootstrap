@@ -1,0 +1,24 @@
+{
+    "default": {
+        "circuit": {
+            "priority": 20,
+            "module": "path:./bar"
+        },
+        "trace": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport",
+            "config": {
+                "modified": "old",
+                "stay": "stay",
+                "object": {
+                    "modified": "old",
+                    "stay": "stay"
+                }
+            }
+        }
+    }
+}

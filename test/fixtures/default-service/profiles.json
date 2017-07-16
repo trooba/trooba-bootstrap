@@ -1,0 +1,20 @@
+{
+    "default": {
+        "trace": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "circuit": {
+            "priority": 20,
+            "module": "path:./bar"
+        },
+        "controller": {
+            "priority": 30,
+            "module": "path:./controller"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        }
+    }
+}

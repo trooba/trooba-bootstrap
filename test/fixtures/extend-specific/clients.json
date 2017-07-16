@@ -1,0 +1,11 @@
+{
+    "my-client": {
+        "$profile": "other",
+        "trace": {
+            "priority": 20,
+            "config": {
+                "request": "foo-req"
+            }
+        }
+    }
+}

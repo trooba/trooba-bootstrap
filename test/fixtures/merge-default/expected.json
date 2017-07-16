@@ -1,0 +1,29 @@
+{
+    "bool": false,
+    "bool1": false,
+    "number": 0,
+    "number1": 1,
+    "string": "foo-client",
+    "array": [
+        "one",
+        "two",
+        "three",
+        "four"
+    ],
+    "array1": [
+        "one"
+    ],
+    "object": {
+        "bool": true,
+        "number": 1,
+        "number1": 1,
+        "bool1": false,
+        "string": "bar-client",
+        "array": [
+            "one",
+            "two",
+            "three",
+            "four"
+        ]
+    }
+}

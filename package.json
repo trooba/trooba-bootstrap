@@ -1,0 +1,40 @@
+{
+  "name": "trooba-bootstrap",
+  "version": "0.1.0",
+  "description": "bootstrap trooba pipeline from json configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --  -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trooba/trooba-bootstrap.git"
+  },
+  "keywords": [
+    "trooba",
+    "pipeline",
+    "configuration"
+  ],
+  "author": "Dmytro Semenov <dimichsdg@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trooba/trooba-bootstrap/issues"
+  },
+  "homepage": "https://github.com/trooba/trooba-bootstrap#readme",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "async": "^2.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "merge-deep": "^3.0.0",
+    "resolve-from": "^3.0.0",
+    "shortstop": "^1.0.3",
+    "shortstop-handlers": "^1.0.1",
+    "trooba": "^2.0.2"
+  }
+}

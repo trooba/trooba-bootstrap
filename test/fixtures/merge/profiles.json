@@ -1,0 +1,47 @@
+{
+    "default": {
+        "trace": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "circuit": {
+            "priority": 20,
+            "module": "path:./bar"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        }
+    },
+    "other": {
+        "trace": {
+            "priority": 20,
+            "module": "path:./foo",
+            "config": {
+                "string": "foo-default",
+                "bool": true,
+                "bool1": false,
+                "number": 10,
+                "number1": 1,
+                "array": ["one", "two"],
+                "array1": ["one"],
+                "object": {
+                    "string": "bar",
+                    "bool": true,
+                    "number": 1,
+                    "array": ["one"],
+                    "number1": 1,
+                    "bool1": false
+                }
+            }
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        },
+        "qaz": {
+            "priority": 20,
+            "module": "path:./qaz.js"
+        }
+    }
+}

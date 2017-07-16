@@ -1,0 +1,22 @@
+{
+    "default": {
+        "trace": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        }
+    },
+    "other": {
+        "circuit": {
+            "priority": 20,
+            "module": "path:./bar"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        }
+    }
+}

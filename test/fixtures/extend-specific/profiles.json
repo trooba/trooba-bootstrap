@@ -1,0 +1,30 @@
+{
+    "default": {
+        "trace": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "circuit": {
+            "priority": 20,
+            "module": "path:./bar"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        }
+    },
+    "other": {
+        "trace": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "http-transport": {
+            "transport": true,
+            "module": "path:./transport"
+        },
+        "qaz": {
+            "priority": 20,
+            "module": "path:./qaz.js"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "my-client": {
+        "$profile": "other",
+        "trace": {
+            "priority": 20,
+            "module": "path:./foo-custom",
+            "config": {
+                "string": "foo-client",
+                "bool": false,
+                "number": 0,
+                "array": ["two", "three", "four"],
+                "object": {
+                    "string": "bar-client",
+                    "bool": true,
+                    "number": 1,
+                    "array": ["one", "two", "three", "four"]
+                }
+            }
+        }
+    }
+}

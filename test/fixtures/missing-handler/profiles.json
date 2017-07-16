@@ -1,0 +1,12 @@
+{
+    "default": {
+        "foo": {
+            "priority": 10,
+            "module": "path:./foo"
+        },
+        "bar": {
+            "priority": 20,
+            "module": "path:./bar"
+        }
+    }
+}
