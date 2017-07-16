@@ -234,7 +234,7 @@ const middleware = {
         // pipe handlers
         "http-transport": {
             "config": {
-                "context": "my-app-http-context",
+                "context": "my-app-http-context"
             }
         },
         // provide our specific routes
