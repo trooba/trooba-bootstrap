@@ -204,8 +204,6 @@ The above requirements may require to re-define priorities for the routes.
 
 ###### Define middleware for the incoming traffic
 
-The support for what is described here is yet to be implemented.
-
 ```js
 const profiles = {
     "default": {
