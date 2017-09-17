@@ -1,5 +1,7 @@
 # trooba-bootstrap
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/trooba/trooba-bootstrap.svg)](https://greenkeeper.io/)
+
 Bootstrap Trooba pipeline from configuration file.
 
 [![codecov](https://codecov.io/gh/trooba/trooba-bootstrap/branch/master/graph/badge.svg)](https://codecov.io/gh/trooba/trooba-bootstrap)
